@@ -235,6 +235,13 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>ksp</id>
+      <url>http://3.84.90.14:8081/repository/ksp-snapshots/</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
   </repositories>
 
   <pluginRepositories>
@@ -255,5 +262,14 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-
+<distributionManagement>
+    <repository>
+      <id>ksp</id>
+      <url>http://3.84.90.14:8081/repository/ksp-snapshots/</url>
+    </repository>
+    <snapshotRepository>
+       <id>ksp</id>
+      <url>http://3.84.90.14:8081/repository/ksp-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
